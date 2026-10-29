@@ -1,0 +1,24 @@
+# Gradle / build output
+.gradle/
+.kotlin/
+build/
+
+# Local machine config
+local.properties
+.idea/
+*.iml
+captures/
+.DS_Store
+
+# SECRETS: never commit
+*.jks
+*.keystore
+keystore.properties
+
+# Build artifacts (these go on the Releases page, not in git)
+*.apk
+*.aab
+
+# Gradle bootstrap download
+gradle-8.9/
+gradle-8.9-bin.zip*
